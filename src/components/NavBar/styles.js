@@ -1,9 +1,12 @@
 import styled from "styled-components";
 export const NavStl = styled.div`
 
+ Link{
+   font-size:10px;
+ }
 
    a{
-        color:orange
+
 
    }
    & :hover{
@@ -11,5 +14,5 @@ export const NavStl = styled.div`
    }
 
    Link{
-      padding:15px}
+      padding:20px}
 `;

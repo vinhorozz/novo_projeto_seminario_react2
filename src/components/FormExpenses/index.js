@@ -1,5 +1,5 @@
 import React from 'react';
-import { FromExStl } from './styles';
+import { FormExStl } from './styles';
 import { Btnform } from '../../styles/global';
 import { BrowserRouter, Router , Route} from 'react-router-dom';
 import {Link} from 'react-router-dom';
@@ -9,7 +9,7 @@ export const FormExp=()=>{
   return( 
 
     //<BrowserRouter>
-    <FromExStl>    
+    <FormExStl>    
   
 
     <div className ='form_input' container='box'>
@@ -35,13 +35,13 @@ export const FormExp=()=>{
 
     <br></br><br></br>
     <spam>
-<Link to= "/home"><button type="button" name="sair" id="submit1" onsubmit="login"> Salvar registo e adicionar nova</button></Link>
+<Link to= "/home"><button type="button" name="sair" id="submit1" onsubmit="login"> Salvar registo</button></Link>
 </spam>
 <br></br><br></br>
 
 
 <spam>
-<Link to= "/home"><button type="button" name="sair" id="submit1" onsubmit="login"> Salvar registo</button></Link>
+<Link to= "/home"><button type="button" name="sair" id="submit1" onsubmit="login"> Acessar registros</button></Link>
 </spam>
 <br></br><br></br>
 <spam>
@@ -50,7 +50,7 @@ export const FormExp=()=>{
 
   
  </div>
-</FromExStl>
+</FormExStl>
 //</BrowserRouter>
 
 );}

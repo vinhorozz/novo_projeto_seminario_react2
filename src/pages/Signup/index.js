@@ -9,7 +9,7 @@ const SignupPage=() =>{
     <div>
         <ContainerPage>
         <TitlePage>
-       VOCÊ ESTÁ NA SIGN UP PAGE
+    
         </TitlePage>
 
      

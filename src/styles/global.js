@@ -2,11 +2,11 @@
 
 
 export const ContainerPage =styled.div`
-  body{
- 
+  body{ 
     font-family: Arial, Helvetica, sans-serif;
     background-image: linear-gradient(245deg, rgb(0, 255, 242), rgb(17, 0, 255)); 
     } `;
+
 export const Bold= styled.b`
 b{
   color: red;  

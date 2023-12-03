@@ -23,7 +23,7 @@ export const FormValidation=()=>{
 <inputForm><input type="text" placeholder="Digite seu e-mail"></input></inputForm> 
 <br></br><label></label><br></br>
 <spam>
-<button type="submit"   name="entrar" id="submit" onsubmit="">Enviar e-mail</button>
+<Link to= "/home"><button type="submit"   name="entrar" id="submit" onsubmit="">Enviar e-mail</button></Link>
 </spam>
 {/*<Btnform>Entrar</Btnform*/}
 <br></br><br></br>

@@ -1,25 +1,20 @@
 import React from 'react';
 import { ContainerPage,TitlePage} from "../../styles/global"
-import { FormSignin } from '../../components/FormSignin'; 
-import SignupPage from '../Signup';
+import { FormExp } from '../../components/FormExpenses';
 
-
-
- const SigninPage=() =>{
+ const ExpensesPage=() =>{
 
     return(
-
-
 <div >
     <ContainerPage>
         <TitlePage>    
-       
+            
         </TitlePage>
 
-        <FormSignin/>
+<FormExp/>
     </ContainerPage>
 </div>  
 
     );}
 
-export default SigninPage;
+export default ExpensesPage;

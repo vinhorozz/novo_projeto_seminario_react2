@@ -45,9 +45,9 @@ export const FormSignup=()=>{
  
            <br></br>   <br></br>
      
-         <spam>
-          <button type="submit"   name="salvar" id="submit" onsubmit="">Salvar</button>
-          </spam>
+        <spam>
+         <Link to= "/Signin"><button type="submit"   name="salvar" id="submit" onsubmit="">Salvar</button></Link>
+        </spam>
                               <br></br><br></br>
 <spam>
 <Link to= "/home"><button type="button" name="sair" id="submit1" onsubmit="login"> Sair</button></Link>

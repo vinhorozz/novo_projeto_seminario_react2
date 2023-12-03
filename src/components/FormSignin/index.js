@@ -25,8 +25,10 @@ export const FormSignin=()=>{
     <inputForm></inputForm>
     <input type="password" placeholder="Digite sua senha"></input>
     <br></br><br></br>
-    <Btnform>Entrar</Btnform>
-    <br></br><br></br>
+    <spam>
+<Link to= "/home"><button type="button" name="sair" id="submit1" onsubmit="login">Entrar</button></Link>
+</spam>
+<br></br><br></br>
 
     <label type="text" >Não possuo cadastro. <Link to = "/Signup" id="login"> <Bold>Registrar-me</Bold></Link> </label><br></br>
     <label type="text" >Esqueci minha senha. <Link to= "/Validation"id="validacao">

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const FormExStl=styled.div`
+export const ExpTabStl=styled.div`
 
 box-shadow:0px 0px 0px #000;
      margin:0 auto;

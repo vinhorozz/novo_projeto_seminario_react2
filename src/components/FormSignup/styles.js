@@ -113,12 +113,13 @@ legend{
 }
 #data_nascimento{
     border: none;
-    padding: 0px;
+    padding: 03px;
     border-radius: 3px;
-    height:2px;
+    height:21px;
     top: auto;
     outline: none;
     font-size: 10x;
+    ;
     
 }
 

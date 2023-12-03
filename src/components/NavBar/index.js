@@ -32,12 +32,13 @@ const NAV1=() =>{
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             
               <div class="navbar-nav">  
-                    <a><Link to ="/home" class="navbar-var">  início  .</Link></a>
-                    <a><Link to ="/validation"class="navbar-var"> -. validação  </Link></a>
-                    <a><Link to ="/signup"class="navbar-var"> -. cadastro  </Link></a>           
-                    <a><Link to ="/about" class="navbar-var"> -. sobre . </Link></a>           
-                    <a><Link to ="/help"class="navbar-var"> -. ajuda  </Link></a>
-              </div>      {/*
+                    <spam><Link to ="/home" class="navbar-var">  Início  </Link> </spam> <spam> .</spam>
+                    <spam><Link to ="/expenses"class="navbar-var"> Expenses  </Link></spam><spam> .</spam>
+                    <spam><Link to ="/validation"class="navbar-var"> Validação  </Link></spam><spam> .</spam>
+                    <spam><Link to ="/signup"class="navbar-var"> Cadastro  </Link></spam> <spam> .</spam>        
+                    <spam><Link to ="/about" class="navbar-var"> Sobre  </Link></spam> <spam> .</spam>
+                    <spam><Link to ="/help"class="navbar-var">  Ajuda  </Link></spam>
+                                  </div>      {/*
               <a class="nav-link" href="/home">  Início </a>
               
               <a class="nav-link" href="/about">  Sobre  </a>
