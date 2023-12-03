@@ -21,10 +21,10 @@ export const FormExp=()=>{
 
     <br></br>
     <label>Nome da empresa/ prestador de serviço </label><br></br>
-    <inputForm><input type="text" placeholder="Nome da empresa/ prestador de serviço"></input></inputForm> 
+    <inputForm><input type="text" placeholder="Ex.: padaria, farmácia, eletricista, colégio ..."></input></inputForm> 
     <br></br>
     <label>Descrição do gasto</label><br></br>
-    <inputForm><input type="text" placeholder="Descrição do gasto"></input></inputForm> 
+    <inputForm><input type="text" placeholder="Ex.: sapato, mouse, tarifa bancária ..."></input></inputForm> 
     <br></br>
     <label>Valor pago</label><br></br>
     <inputForm><input type="text" placeholder="Ex.: R$ 1002,75"></input></inputForm> 
