@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+
 export const FormExStl=styled.div`
 
 box-shadow:0px 0px 0px #000;
@@ -36,6 +37,16 @@ label{
     text-align: center;
 }
  
+
+legend{
+    width:100%;
+    border: 5px solid dodgerblue;
+    padding: 5px;
+    text-align: center;
+    background-color: lightblue;
+    border-radius: 3px;
+    
+}
 
 button{
     background-color: dodgerblue;

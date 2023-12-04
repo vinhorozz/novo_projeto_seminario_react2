@@ -11,6 +11,7 @@ import ValidationPage from './pages/Validation';
 import ExpensesPage   from './pages/Expenses';
 //import Nav from './components/NavBar';  
 import NAV1 from './components/NavBar';
+
 import { FormSignin }     from './components/FormSignin';
 import { FormSignup }     from './components/FormSignup';
 import { FormValidation } from './components/FormValidation';
@@ -19,20 +20,18 @@ import { FormExp }        from './components/FormExpenses';
 
 
 function App() { 
-{/*const [user,setUser]=useState(null);
-const [user,setUser]=useState({
-  id:1,
-  nome:'Pedro' 
-});
 
-  if(user===null){return(<SigninPage/>)};*/}
+{/* */} const[user, setUser] = useState();
+// let[user, setUser] = useState({});
+
+if (user === null){return( <SigninPage/> );} 
 
   return (
     <div>
 
 <BrowserRouter>
 
-<NAV1></NAV1>
+<NAV1></NAV1>''
 
 
           <Routes>

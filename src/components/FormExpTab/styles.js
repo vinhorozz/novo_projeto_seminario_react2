@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 
 export const ExpTabStl=styled.div`
-
-box-shadow:0px 0px 0px #000;
+    box-shadow:0px 0px 0px #000;
      margin:0 auto;
-     
-h1{     text-align: center;
+     padding:100px;
+
+h1{   text-align: center;
 }
 
 div{
@@ -13,14 +13,12 @@ div{
     position: absolute;
     top: 50%;
     left: 50%;
-    height:0% auto;
-    
+    height:0% auto;    
     transform: translate(-50%,-50%);
-    padding: 70px;
+    padding: 20px;
     border-radius: 15px;
     color: #fff;
 }
-
 
 a{
     color: lightblue;  
@@ -29,42 +27,33 @@ b{
     color:lightblue;  
 }
 
-
 label{
-    font-size: 18px;
-
+    font-size: 13px;
     text-align: center;
 }
  
-
 button{
     background-color: dodgerblue;
-            border: none;
-            padding: 10px;
+            border: 12px;
+            padding: 5px;
             width: 100%;
-            border-radius: 10px;
+            border-radius: 3px;
             color: white;
-            font-size: 15px;
+            font-size: 25px;
+            font-weight:bolder;
             &:hover{
             background-color: deepskyblue;
-     }
-            
+     }            
 }
+
 input{
+    height:20px;
     width:100%;
+    font-size:12px;
     &:hover{
         
     }
-
-
 }
-
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(245deg, rgb(0, 255, 242), rgb(17, 0, 255));
-}
-
-
 
 .box{
     color: white;
@@ -84,21 +73,17 @@ fieldset{
 }
 
 legend{
-    border: 10px solid dodgerblue;
-    padding: 10px;
-    text-align: center;
+
+    border: 1px solid dodgerblue;
+    padding: 2px;
+    text-align: right auto;
     background-color: dodgerblue;
-    border-radius: 8px;
-    width: 87.4%;
+    border-radius: 3px;
+    width:0 auto;
 }
-
-
 
 .inputBox{
     position: relative;
-
-
-
     
 }
 .inputUser{
@@ -126,12 +111,15 @@ legend{
     font-size: 12px;
     color: dodgerblue;
 }
-#data_da_despesa{
+#data_nascimento{
     border: none;
-    padding: 3px;
-    border-radius: 03px;
+    padding: 03px;
+    border-radius: 3px;
+    height:21px;
+    top: auto;
     outline: none;
-    font-size: 15px;
+    font-size: 10x;
+    ;
     
 }
 
@@ -160,4 +148,8 @@ legend{
     }
     #submit1:hover{
         background-image: linear-gradient(to right,rgb(0, 80, 172), rgb(80, 19, 195));
-    }`
+    }
+
+
+
+`;

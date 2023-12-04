@@ -33,7 +33,7 @@ const NAV1=() =>{
             
               <div class="navbar-nav">  
                     <spam><Link to ="/home" class="navbar-var">  Início  </Link> </spam> <spam> .</spam>
-                    <spam><Link to ="/expenses"class="navbar-var"> Expenses  </Link></spam><spam> .</spam>
+                    <spam><Link to ="/expenses"class="navbar-var"> Despesas </Link></spam><spam> .</spam>
                     <spam><Link to ="/validation"class="navbar-var"> Validação  </Link></spam><spam> .</spam>
                     <spam><Link to ="/signup"class="navbar-var"> Cadastro  </Link></spam> <spam> .</spam>        
                     <spam><Link to ="/about" class="navbar-var"> Sobre  </Link></spam> <spam> .</spam>

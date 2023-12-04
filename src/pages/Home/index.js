@@ -1,6 +1,6 @@
 import React from 'react';
 import { ContainerPage,TitlePage } from "../../styles/global";
-import { FormExp } from '../../components/FormExpTab';
+import { FormExpTab } from '../../components/FormExpTab';
 
 const HomePage=() =>{
 
@@ -9,7 +9,7 @@ const HomePage=() =>{
             <TitlePage>
 
             </TitlePage>
-           <FormExp/>
+           <FormExpTab/>
         
      </ContainerPage>
  
