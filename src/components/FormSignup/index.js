@@ -29,7 +29,9 @@ export const FormSignup=()=>{
             <label>Telefone</label><br></br>       
             <inputForm><input type="text" name="" id="" placeholder="Telefone"required></input></inputForm>
             <br></br>
-
+            <label>E-mail</label><br></br>       
+            <inputForm><input type="text" name="e-mail" id="" placeholder="E-mail"required></input></inputForm>
+            <br></br>
             <label for="data_nascimento">Data de Nascimento:  </label> <br></br><input type="date" name="data_nascimento" id="data_nascimento" required ></input>
           
 
