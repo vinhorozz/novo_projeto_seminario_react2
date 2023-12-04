@@ -50,7 +50,7 @@ export const FormSignup=()=>{
         </spam>
                               <br></br><br></br>
 <spam>
-<Link to= "/home"><button type="button" name="sair" id="submit1" onsubmit="login"> Sair</button></Link>
+<Link to= "/Signin"><button type="button" name="sair" id="submit1" onsubmit="login"> Sair</button></Link>
 </spam>
 
          <br></br>

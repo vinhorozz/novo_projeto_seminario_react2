@@ -41,7 +41,7 @@ label{
             color: white;
             font-size: 15px;
             &:hover{
-            background-color: deepskyblue;
+            background-color: lightcyan;
      }
             
 }
@@ -51,4 +51,33 @@ input{
     }
 
 
-}`;
+}#submit{
+    background-image: linear-gradient(to right,rgb(0, 92, 197), rgb(90, 20, 220));
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#submit:hover{
+    background-image: linear-gradient(to right,rgb(0, 80, 172), rgb(80, 19, 195));
+}
+    #submit1{
+        background-image: linear-gradient(to right,rgb(0, 92, 197), rgb(90, 20, 220));
+        width: 100%;
+        border: none;
+        padding: 15px;
+        color: white;
+        font-size: 15px;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+    #submit1:hover{
+        background-image: linear-gradient(to right,rgb(0, 80, 172), rgb(80, 19, 195));
+    }
+
+
+
+`;

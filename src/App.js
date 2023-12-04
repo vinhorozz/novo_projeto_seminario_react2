@@ -12,13 +12,6 @@ import ExpensesPage   from './pages/Expenses';
 //import Nav from './components/NavBar';  
 import NAV1 from './components/NavBar';
 
-import { FormSignin }     from './components/FormSignin';
-import { FormSignup }     from './components/FormSignup';
-import { FormValidation } from './components/FormValidation';
-import { FormExp }        from './components/FormExpenses';
-
-
-
 function App() { 
 
 {/* */} const[user, setUser] = useState();
